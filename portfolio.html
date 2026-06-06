@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana Javed | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">Sana<span>Javed</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Home / Hero Section (With Background Image) -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <p class="hero-subtitle">Welcome to My Portfolio</p>
+                <h1 class="hero-title">Hi, I'm <span>Sana Javed</span></h1>
+                <p class="hero-role">Frontend Developer & WordPress Expert</p>
+                <p class="hero-desc">Motivated BS Computer Science student with a strong passion for web
+                    development, clean coding practices, and user-centered design.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Passionate Web Developer</h3>
+                        <p>Hi! I'm Sana, a professional web developer from Okara, Punjab. I actively bridge academic
+                            concepts with real-world applications through self-learning and active freelancing, creating
+                            responsive and user-friendly web solutions.</p>
+
+                        <div class="personal-info">
+                            <p><strong>Location:</strong> Okara, Punjab, Pakistan</p>
+                            <p><strong>Languages:</strong> Urdu (Fluent), English (Intermediate)</p>
+                        </div>
+
+                        <div class="traits">
+                            <h4>Core Strengths:</h4>
+                            <div class="trait-tags">
+                                <span>Creative</span>
+                                <span>Fast Learner</span>
+                                <span>Problem Solving</span>
+                                <span>Communication</span>
+                                <span>Attention to Detail</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-timeline">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Education Timeline</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4>BS Computer Science</h4>
+                                <p class="timeline-org">University of Agriculture Faisalabad</p>
+                                <span class="status-badge">Ongoing</span>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4>FSc Pre-Engineering</h4>
+                                <p class="timeline-org">Government College</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4>Matriculation (Biology)</h4>
+                                <p class="timeline-org">Government School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="section-heading">Technical Skills</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code skill-icon"></i>
+                        <h3>CMS & Web Core</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-wordpress"></i> WordPress Development</li>
+                            <li><i class="fa-solid fa-store"></i> WordPress E-Commerce</li>
+                            <li><i class="fa-solid fa-cubes"></i> Elementor Pro Expert</li>
+                            <li><i class="fa-brands fa-html5"></i> HTML5 & CSS3</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-brain skill-icon"></i>
+                        <h3>Scripting & Logic</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-js"></i> JavaScript Developer</li>
+                            <li><i class="fa-brands fa-python"></i> Basic Python</li>
+                            <li><i class="fa-solid fa-terminal"></i> Basic C++</li>
+                            <li><i class="fa-solid fa-gears"></i> Logic Building</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-screwdriver-wrench skill-icon"></i>
+                        <h3>Tools & Ecosystem</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                            <li><i class="fa-solid fa-chart-line"></i> Basic SEO Optimization</li>
+                            <li><i class="fa-solid fa-calculator"></i> NumPy & Matplotlib</li>
+                            <li><i class="fa-solid fa-palette"></i> Content Creation</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section (Clean Grid Layout - No Slider) -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-heading">Featured Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <i class="fa-solid fa-car card-icon"></i>
+                        <h3>Car Rental & Dealership Platform</h3>
+                        <p>A responsive website layout featuring vehicle listings, pricing tables, and a seamless
+                            booking interface structure.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <i class="fa-solid fa-arrow-pointer card-icon"></i>
+                        <h3>Yes/No Interactive App</h3>
+                        <p>JavaScript mini-project where the negative target button moves away programmatically on mouse
+                            hover.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <i class="fa-solid fa-utensils card-icon"></i>
+                        <h3>Food Order Frontend</h3>
+                        <p>A beautiful responsive visual interface layout built for food ordering businesses and
+                            restaurant mockups.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Libraries</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <i class="fa-solid fa-cloud-sun card-icon"></i>
+                        <h3>Weather Forecast App</h3>
+                        <p>Dynamic platform fetching live atmospheric environmental updates via API endpoints.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>API</span></div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <i class="fa-solid fa-list-check card-icon"></i>
+                        <h3>Quiz & ToDo Workspace</h3>
+                        <p>Functional web utilities tracking task list parameters and clean automated score sheet
+                            logging.</p>
+                        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <i class="fa-brands fa-wordpress-simple card-icon"></i>
+                        <h3>Custom WordPress Sites</h3>
+                        <p>Job portals, chauffeur service bookings, and optimized blogs crafted professionally via
+                            Elementor Pro.</p>
+                        <div class="tech-tags"><span>WordPress</span><span>Elementor</span></div>
+                    </div>
+
+                </div> <!-- End of projects-grid -->
+            </div> <!-- End of container -->
+        </section>
+
+        <!-- 5. Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-heading">Get In Touch</h2>
+
+                <div class="contact-split-container">
+
+                    <!-- Left Side: Contact Information Details -->
+                    <div class="contact-details-side">
+                        <h3>Contact Information</h3>
+                        <p class="contact-intro-text">Have an interesting project proposal, freelance opportunity, or
+                            want to build a website? Feel free to reach out directly through any channel.</p>
+
+                        <div class="contact-info-list">
+                            <a href="mailto:sanajaved0411@gmail.com" class="info-item-link">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h4>Email Me:</h4>
+                                    <span>sanajaved0411@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:+923257790143" class="info-item-link">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h4>Call Me:</h4>
+                                    <span>0325-7790143</span>
+                                </div>
+                            </a>
+                            <div class="info-item-link static-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h4>Location:</h4>
+                                    <span>Okara, Punjab, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-connect-box">
+                            <h4>Connect Globally:</h4>
+                            <div class="social-links-row">
+                                <a href="https://github.com/sana-javed-04" target="_blank" class="social-circle github"
+                                    aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/sana-javed-dev/" target="_blank"
+                                    class="social-circle linkedin" aria-label="LinkedIn"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.fiverr.com/users/sanajaved_dev/" target="_blank"
+                                    class="social-circle fiverr" aria-label="Fiverr">FI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Professional Contact Form -->
+                    <div class="contact-form-side">
+                        <h3>Send a Message</h3>
+                        <form id="portfolioContactForm" action="#" method="POST"
+                            onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                            <div class="form-group">
+                                <label for="formName">Full Name</label>
+                                <input type="text" id="formName" name="name" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formEmail">Email Address</label>
+                                <input type="email" id="formEmail" name="email" placeholder="username@example.com"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formSubject">Subject</label>
+                                <input type="text" id="formSubject" name="subject" placeholder="Project Discussion"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formMessage">Your Message</label>
+                                <textarea id="formMessage" name="message" rows="5"
+                                    placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary form-submit-btn">Send Message <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sana Javed. Built with pure HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Simple JS File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
